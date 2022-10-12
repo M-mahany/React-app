@@ -1,0 +1,86 @@
+.imgHeader{
+    padding: 30PX;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+background-color: black;
+height: auto;
+}
+.Text h1{
+    text-align: center;
+color: rgb(236, 221, 9);
+}
+.Text p{
+    padding-top: 30px;
+color: aliceblue;
+line-height: 2;
+text-align: center;
+font-size: 22px;
+padding-bottom: 18px;
+}
+.Text{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.Logo{
+    margin-top:0px ;
+width: 200px;
+height: 200px;
+}
+.Text .btn{
+font-size: 20px;
+width: 250px;
+height: 50px;
+}
+.divBox{
+    padding-bottom: 30px;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.Box{
+    border-radius: 5%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+align-items: center;
+    margin: 15px;
+    border: 1px solid rgb(204, 204, 204);
+    width: 350px;
+    height:350px;
+}
+.Box:hover{
+background-color: black;opacity: 0.9;
+color: white;
+}
+.Box p{
+    margin-top: 25px;
+text-align: center;
+}
+.Box img{
+    margin-top: -30px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+@media screen and (max-width:1000px){
+    .imgHeader{
+        flex-wrap: wrap;
+    }
+    .imgH{
+        width: 100%;
+        height:auto;
+    }
+    .divBox{
+        flex-wrap: wrap;
+    }
+    .Box{
+        width: 70%;
+        height:350px;
+    }
+}

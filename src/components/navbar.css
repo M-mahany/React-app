@@ -1,0 +1,33 @@
+.Sign-buttons{
+    position: absolute;
+    right: 60px;
+    top: 8px;
+}
+.btn{
+    margin-right: 8px;
+}
+.navbar-mobile{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+.navbar-mobile a{
+    padding: 8px;
+    text-align: center;
+    width: 100%;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+.navbar-mobile a:hover{ 
+    background-color: rgb(24, 23, 23);
+    color: white;
+}
+@media screen and (max-width:1000px){
+    .Sign-buttons{
+        right: 13%;
+    }
+}
